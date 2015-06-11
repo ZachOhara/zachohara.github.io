@@ -1,12 +1,11 @@
 html {
-	border-style: solid;
+	border-style: outset;
 	border-width: 50px;
 	border-color: royalblue;
 }
 
 body {
 	font-family: Arial;
-	font-size: 12px;
 }
 
 h1 {
@@ -15,6 +14,7 @@ h1 {
 
 p {
 	text-indent: 25px;
+	font-size: 20px;
 }
 
 #pagebuffer {

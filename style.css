@@ -1,6 +1,6 @@
 html {
 	border-style: outset;
-	border-width: 50px;
+	border-width: 25px;
 	border-color: royalblue;
 }
 
@@ -17,7 +17,7 @@ p {
 	font-size: 20px;
 }
 
-#pagebuffer {
+.pagebuffer {
 	border-style: solid;
 	border-width: 20px;
 	border-color: white;

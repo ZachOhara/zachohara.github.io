@@ -17,7 +17,7 @@ p {
 	font-size: 16px;
 }
 
-.pagebuffer {
+div {
 	border-style: solid;
 	border-width: 20px;
 	border-color: white;

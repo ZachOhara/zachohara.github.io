@@ -1,14 +1,24 @@
+html {
+	border-style: solid;
+	border-width: 50px;
+	border-color: royalblue;
+}
+
 body {
 	font-family: Arial;
 	font-size: 12px;
-	
-	border-style: solid;
-	border-width: 70px;
-	border-color: lightblue;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-indent: 25px;
 }
 
 #pagebuffer {
 	border-style: solid;
-	border-width: 50px;
+	border-width: 20px;
 	border-color: white;
 }

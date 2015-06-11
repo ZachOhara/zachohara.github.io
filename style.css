@@ -1,4 +1,8 @@
 body {
-	background-color: lightblue;
 	font-family: Arial;
+	font-size: 12px;
+	
+	border-style: solid;
+	border-width: 50px;
+	border-color: lightblue;
 }

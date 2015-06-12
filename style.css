@@ -1,15 +1,19 @@
+
 html {
-	border-style: outset;
-	border-width: 25px;
-	border-color: royalblue;
+	
 }
 
 body {
 	font-family: Arial;
+	outline: 0;
 }
 
-h1 {
-	text-align: center;
+a {
+	color: black;
+}
+
+a:hover {
+	color: #009999;
 }
 
 p {
@@ -17,8 +21,46 @@ p {
 	font-size: 16px;
 }
 
-div {
+.ridgeBorder {
+	border-style: ridge;
+	border-color: #009999;
+	border-width: 5px;
+}
+
+#content {
 	border-style: solid;
 	border-width: 20px;
 	border-color: white;
+	border-top-width: 5px;
+}
+
+#titlepane {
+	border-style: solid;
+	border-width: 30px;
+	border-color: white;
+}
+
+#myname {
+	text-decoration: none;
+	font-size: 36px;
+	font-family: Verdana;
+	border-left-width: 40px;
+	border-left-style: solid;
+	border-left-color: white;
+}
+
+#githubLink {
+	text-align: right;
+	text-decoration: none;
+	font-size: 17px;
+	border-right-width : 50px;
+	border-right-style: solid;
+	border-right-color: white;
+	border-right-width: 50px;
+}
+
+#contentBorder {
+	border-style: solid;
+	border-width: 30px;
+	border-color: #10A9A9;
 }

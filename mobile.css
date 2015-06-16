@@ -2,6 +2,24 @@
 
 #pageHeader {
 	display: block;
+	border-left-width: 30px;
+}
+
+#myname {
+	display: block;
+	text-align: center;
+}
+
+#githubLink {
+	display: block;
+	text-align: center;
+	border-left-width: 0;
+	border-top-width: 10px;
+}
+
+#contentPane {
+	background-color: black;
+	color: white;
 }
 
 }

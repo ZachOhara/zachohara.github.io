@@ -5,21 +5,25 @@
 	border-left-width: 30px;
 }
 
-#myname {
+#site-title {
 	display: block;
 	text-align: center;
 }
 
-#githubLink {
+#github-link {
 	display: block;
+	float: none;
 	text-align: center;
-	border-left-width: 0;
 	border-top-width: 10px;
 }
 
-#contentPane {
-	background-color: black;
-	color: white;
+#content-pane {
+	display: block;
+}
+
+div.content-section {
+	display: block;
+	width: auto;
 }
 
 }

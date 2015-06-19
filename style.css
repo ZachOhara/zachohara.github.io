@@ -1,53 +1,79 @@
 body {
 	font-family: Arial;
 	margin: 0px;
+	font-size: 16px;
 }
 
-a {
-	color: black;
-}
-
-a:hover {
-	color: #009999;
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
 }
 
 p {
 	text-indent: 25px;
-	font-size: 16px;
 }
 
-.ridgeBorder {
-	border-style: ridge;
-	border-color: #009999;
-	border-width: 5px;
+a {
+	color: #208BFE;
+	text-decoration: none;
 }
 
-#pageHeader {
-	border-style: solid;
-	border-width: 30px;
-	border-color: transparent;
+a:hover {
+	color: #0D3B6D;
+}
+
+a.project-link {
+	display: block;
+	font-size: 18px;
+	border: solid transparent 0px;
+	border-bottom-width: 10px;
+}
+
+a.header-link {
+	color: black;
+}
+
+a.header-link:hover {
+	color: #009999;
+}
+
+#page-header {
+	border: solid transparent 30px;
 	border-left-width: 10vw;
+	border-right-width: 10vw;
 }
 
-#myname {
+#site-title {
 	font-size: 36px;
 	font-family: Verdana;
-	text-decoration: none;
 }
 
-#githubLink {
+#github-link {
 	font-size: 18px;
-	text-decoration: none;
+	align: right-bottom;
+	float: right;
 	border: solid transparent 0px;
-	border-left-width: 50vw;
+	border-top-width: 10px;
 }
 
-#contentBorder {
+div.thick-border {
 	border-style: solid;
 	border-width: 30px;
 	border-color: #10A9A9;
 }
 
-#contentPane {
-	background-color: white;
+div.ridge-border {
+	border-style: ridge;
+	border-color: #009999;
+	border-width: 5px;
+}
+
+#content-pane {
+	display: flex;
+}
+
+div.content-section {
+	align: center;
+	text-align: center;
+	display: inline-block;
+	width: calc((100vw - 60px) / 3);
 }

@@ -19,11 +19,16 @@
 
 #content-pane {
 	display: block;
+	min-height: calc(100vh - 265px);
 }
 
 div.content-section {
 	display: block;
 	width: auto;
+}
+
+#footer {
+	margin-top: -1px;
 }
 
 }

@@ -1,15 +1,15 @@
 body {
 	font-family: Arial;
-	margin: 0px;
 	font-size: 16px;
+	margin: 0px;
+}
+
+div#main-div {
+	height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;
-}
-
-p {
-	text-indent: 25px;
 }
 
 a {
@@ -36,7 +36,7 @@ a.header-link:hover {
 	color: #009999;
 }
 
-#page-header {
+div#page-header {
 	border: solid transparent 30px;
 	border-left-width: 10vw;
 	border-right-width: 10vw;
@@ -59,6 +59,9 @@ div.thick-border {
 	border-style: solid;
 	border-width: 30px;
 	border-color: #10A9A9;
+	
+	margin: 0px;
+	padding: 0px;
 }
 
 div.ridge-border {
@@ -69,6 +72,7 @@ div.ridge-border {
 
 #content-pane {
 	display: flex;
+	min-height: calc(100vh - 235px);
 }
 
 div.content-section {
@@ -76,4 +80,9 @@ div.content-section {
 	text-align: center;
 	display: inline-block;
 	width: calc((100vw - 60px) / 3);
+}
+
+#footer {
+	background-color: #10A9A9;
+	border: 1px solid transparent;
 }

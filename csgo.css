@@ -1,0 +1,108 @@
+
+/* Colors */
+
+.bg-color {
+	background-color: #455A64; /* Blue-Grey 700 */
+}
+
+/* Spacers */
+
+.space-l {
+	height: 100px;
+}
+
+.space-m {
+	height: 50px;
+}
+
+.space-s {
+	height: 25px;
+}
+
+.space-xs {
+	height: 10px;
+}
+
+.space-xxs {
+	height: 5px;
+}
+
+/* Elements */
+
+* {
+	margin: 0px;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+p, h1, h2, h3, h4, h5, h6, q, form {
+	color: white;
+	font-family: Monteserrat, Roboto, sans-serif;
+}
+
+p {
+	font-size: 20px;
+	text-align: justify;
+	text-indent: 60px;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h6 {
+	font-weight: normal;
+	font-size: 14px;
+	opacity: 0.75;
+}
+
+q {
+	font-style: italic;
+	opacity: 0.8;
+	font-size: 30px;
+}
+
+.form {
+	color: white;
+	font-family: Monteserrat, Roboto, sans-serif;
+	font-size: 18px;
+	line-height: 50px;
+}
+
+input {
+	height: 20px;
+}
+
+input[name=betamount] {
+	width: 40px;
+}
+
+input[type=submit] {
+	background-color: #ECEFF1;
+	border: none;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	border-radius: 5px;
+	padding: 2px 15px;
+	font-size: 16px
+}
+
+input[type=submit]:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+/* Custom */
+
+.main-content {
+	display: inline-block;
+	text-align: center;
+	width: 800px;
+}
